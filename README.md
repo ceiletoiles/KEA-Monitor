@@ -20,6 +20,7 @@ The script reads these values from environment variables:
 - `BOT_TOKEN` - Telegram bot token
 - `CHAT_ID` - Telegram chat ID
 - `REQUESTS_PROXY` - optional proxy URL for routing KEA traffic through an allowed egress point
+- `NETWORK_DIAGNOSTICS` - set to `1` to log DNS, TCP, TLS, redirect, and HTTP-layer details in GitHub Actions
 
 Do not hardcode either value in the repository.
 
@@ -32,14 +33,24 @@ Do not hardcode either value in the repository.
 5. New or modified announcements trigger Telegram messages.
 6. The updated state file is committed and pushed back to the repository so the next run knows what has already been seen.
 
-If the site only responds from India, the cleanest option is to move the workflow onto a self-hosted runner in India.
-Set the repository variable `MONITOR_RUNS_ON_JSON` to a JSON array of runner labels, for example:
+If the site is reachable from your browser but fails in GitHub Actions, enable `NETWORK_DIAGNOSTICS=1` in repository variables and inspect the workflow logs. The monitor will print:
 
-```text
-["self-hosted","linux","india"]
-```
+- DNS answers from the runner
+- direct TCP connect results to each resolved IP
+- TLS handshake details and certificate metadata
+- redirect chains
+- the final HTTP status, URL, and protocol version
+- request headers that were actually sent
 
-The monitor already supports `REQUESTS_PROXY` for environments where an outbound proxy is legitimately required.
+Use the evidence to narrow the cause:
+
+- `DNS resolution failed` points to a name-resolution problem.
+- `TCP probe failed` points to a route, firewall, or IP-reachability problem.
+- `TLS handshake success` followed by a non-200 HTTP status points to an HTTP-level block or redirect issue.
+- `Connect timeout while fetching` points to the connection stage, before any HTTP response.
+- `Read timeout while fetching` points to the server accepting the connection but not returning data in time.
+
+The workflow stays on `ubuntu-latest` and does not require a self-hosted runner.
 
 ## First run behavior
 

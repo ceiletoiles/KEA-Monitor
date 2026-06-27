@@ -5,8 +5,10 @@ import json
 import logging
 import os
 import re
+import socket
 import subprocess
 import tempfile
+import ssl
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,7 +24,10 @@ from urllib3.util.retry import Retry
 
 TARGET_URL = "https://cetonline.karnataka.gov.in/kea/pgcet2026"
 STATE_FILE = Path(__file__).resolve().with_name("known_announcements.json")
-REQUEST_TIMEOUT = 25
+CONNECT_TIMEOUT = 10
+READ_TIMEOUT = 25
+REQUEST_TIMEOUT = (CONNECT_TIMEOUT, READ_TIMEOUT)
+DIAGNOSTICS_TIMEOUT = 8
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -96,14 +101,196 @@ def create_session() -> requests.Session:
     return session
 
 
-def fetch_page(session: requests.Session, url: str) -> str | None:
+def is_truthy(value: str | None) -> bool:
+    if value is None:
+        return False
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def family_label(family: int) -> str:
+    if family == socket.AF_INET:
+        return "IPv4"
+    if family == socket.AF_INET6:
+        return "IPv6"
+    return f"family={family}"
+
+
+def summarize_proxy(url: str) -> str:
+    parsed = urlparse(url)
+    host = parsed.hostname or parsed.netloc or "unknown"
+    if parsed.port:
+        host = f"{host}:{parsed.port}"
+    return f"{parsed.scheme or 'http'}://{host}"
+
+
+def summarize_headers(headers: dict[str, str]) -> str:
+    fields = ("User-Agent", "Accept", "Accept-Language", "Cache-Control", "Pragma")
+    return ", ".join(f"{name}={headers.get(name)!r}" for name in fields if name in headers)
+
+
+def summarize_cert(cert: dict[str, Any]) -> str:
+    subject_parts = []
+    for entry in cert.get("subject", []):
+        for key, value in entry:
+            subject_parts.append(f"{key}={value}")
+    issuer_parts = []
+    for entry in cert.get("issuer", []):
+        for key, value in entry:
+            issuer_parts.append(f"{key}={value}")
+    san_entries = [value for kind, value in cert.get("subjectAltName", []) if kind == "DNS"]
+    summary = [
+        f"subject={'/'.join(subject_parts) if subject_parts else 'unknown'}",
+        f"issuer={'/'.join(issuer_parts) if issuer_parts else 'unknown'}",
+        f"notAfter={cert.get('notAfter', 'unknown')}",
+    ]
+    if san_entries:
+        summary.append(f"san={', '.join(san_entries[:6])}")
+    return ", ".join(summary)
+
+
+def log_network_diagnostics(session: requests.Session, url: str) -> None:
+    parsed = urlparse(url)
+    host = parsed.hostname
+    if not host:
+        logger.warning("Cannot run network diagnostics because the target host is missing")
+        return
+
+    port = parsed.port or (443 if parsed.scheme == "https" else 80)
+    logger.info("Network diagnostics enabled for %s", url)
+    logger.info("Configured timeouts: connect=%ss read=%ss diagnostics_probe=%ss", CONNECT_TIMEOUT, READ_TIMEOUT, DIAGNOSTICS_TIMEOUT)
+    logger.info("Transport note: requests uses HTTP/1.1; response logging will show the negotiated HTTP version")
+    logger.info("Request headers: %s", summarize_headers(session.headers))
+
+    if session.proxies:
+        logger.info("Direct socket probes below bypass the configured proxy and are for reference only")
+        for scheme, proxy_url in session.proxies.items():
+            logger.info("Proxy for %s: %s", scheme, summarize_proxy(proxy_url))
+    else:
+        logger.info("No outbound proxy configured")
+
+    try:
+        resolved = socket.getaddrinfo(host, port, type=socket.SOCK_STREAM)
+    except socket.gaierror as exc:
+        logger.exception("DNS resolution failed for %s:%s: %s", host, port, exc)
+        return
+
+    seen_endpoints: set[tuple[int, tuple[Any, ...]]] = set()
+    for family, _socktype, _proto, canonname, sockaddr in resolved:
+        ip_address = sockaddr[0]
+        logger.info(
+            "DNS result: family=%s address=%s port=%s canonname=%s",
+            family_label(family),
+            ip_address,
+            sockaddr[1],
+            canonname or "-",
+        )
+        key = (family, sockaddr)
+        if key in seen_endpoints:
+            continue
+        seen_endpoints.add(key)
+
+        try:
+            with socket.socket(family, socket.SOCK_STREAM) as sock:
+                sock.settimeout(DIAGNOSTICS_TIMEOUT)
+                logger.info(
+                    "TCP probe start: family=%s address=%s port=%s timeout=%ss",
+                    family_label(family),
+                    ip_address,
+                    sockaddr[1],
+                    DIAGNOSTICS_TIMEOUT,
+                )
+                sock.connect(sockaddr)
+                logger.info(
+                    "TCP probe success: family=%s address=%s port=%s",
+                    family_label(family),
+                    ip_address,
+                    sockaddr[1],
+                )
+
+                if parsed.scheme.lower() == "https":
+                    context = ssl.create_default_context()
+                    with context.wrap_socket(sock, server_hostname=host) as tls_sock:
+                        logger.info(
+                            "TLS handshake success: family=%s address=%s tls_version=%s cipher=%s alpn=%s",
+                            family_label(family),
+                            ip_address,
+                            tls_sock.version() or "unknown",
+                            tls_sock.cipher(),
+                            tls_sock.selected_alpn_protocol() or "none",
+                        )
+                        peer_cert = tls_sock.getpeercert() or {}
+                        if peer_cert:
+                            logger.info("TLS peer certificate: %s", summarize_cert(peer_cert))
+        except OSError as exc:
+            logger.warning(
+                "Probe failed: family=%s address=%s port=%s error=%s",
+                family_label(family),
+                ip_address,
+                sockaddr[1],
+                exc,
+            )
+
+
+def log_http_response_details(response: requests.Response) -> None:
+    http_version = {10: "HTTP/1.0", 11: "HTTP/1.1"}.get(getattr(response.raw, "version", None), "unknown")
+    logger.info(
+        "HTTP response: status=%s reason=%s url=%s http_version=%s content_type=%s content_length=%s",
+        response.status_code,
+        response.reason,
+        response.url,
+        http_version,
+        response.headers.get("Content-Type", "-"),
+        response.headers.get("Content-Length", "-"),
+    )
+    if response.history:
+        for index, hop in enumerate(response.history, start=1):
+            logger.info(
+                "Redirect hop %d: status=%s from=%s to=%s",
+                index,
+                hop.status_code,
+                hop.url,
+                hop.headers.get("Location", "-"),
+            )
+    logger.info("Final request headers: %s", summarize_headers(response.request.headers))
+
+
+def describe_request_exception(exc: requests.RequestException) -> str:
+    chain: list[str] = []
+    current: BaseException | None = exc
+    for _ in range(4):
+        if current is None:
+            break
+        chain.append(f"{type(current).__name__}: {current}")
+        current = current.__cause__ or current.__context__
+    return " -> ".join(chain)
+
+
+def fetch_page(session: requests.Session, url: str, *, diagnostics_enabled: bool = False) -> str | None:
     try:
         response = session.get(url, timeout=REQUEST_TIMEOUT)
         response.raise_for_status()
         response.encoding = response.encoding or "utf-8"
+        log_http_response_details(response)
         return response.text
+    except requests.ConnectTimeout as exc:
+        logger.exception("Connect timeout while fetching %s: %s", url, describe_request_exception(exc))
+        if diagnostics_enabled:
+            log_network_diagnostics(session, url)
+        return None
+    except requests.ReadTimeout as exc:
+        logger.exception("Read timeout while fetching %s: %s", url, describe_request_exception(exc))
+        if diagnostics_enabled:
+            log_network_diagnostics(session, url)
+        return None
+    except requests.SSLError as exc:
+        logger.exception("TLS/SSL error while fetching %s: %s", url, describe_request_exception(exc))
+        if diagnostics_enabled:
+            log_network_diagnostics(session, url)
+        return None
     except requests.RequestException as exc:
-        logger.exception("Failed to fetch page: %s", exc)
+        logger.exception("Failed to fetch page: %s", describe_request_exception(exc))
+        if diagnostics_enabled:
+            log_network_diagnostics(session, url)
         return None
 
 
@@ -619,8 +806,12 @@ def main() -> int:
     repo_root = Path(__file__).resolve().parent
     state = load_state(STATE_FILE)
     session = create_session()
+    diagnostics_enabled = is_truthy(load_env("NETWORK_DIAGNOSTICS"))
 
-    html = fetch_page(session, TARGET_URL)
+    if diagnostics_enabled:
+        log_network_diagnostics(session, TARGET_URL)
+
+    html = fetch_page(session, TARGET_URL, diagnostics_enabled=False)
     if not html:
         logger.warning("Skipping update because the target page could not be fetched")
         return 0
