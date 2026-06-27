@@ -1,0 +1,42 @@
+name: KEA PGCET Monitor
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kea-pgcet-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    # Default to GitHub-hosted runners, but allow a JSON array override such as
+    # ["self-hosted","linux","india"] for an India-based self-hosted runner.
+    runs-on: ${{ fromJSON(vars.MONITOR_RUNS_ON_JSON || '["ubuntu-latest"]') }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          REQUESTS_PROXY: ${{ secrets.REQUESTS_PROXY }}
+          LOG_LEVEL: INFO
+        run: python tracker.py

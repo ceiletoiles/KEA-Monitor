@@ -1,0 +1,1213 @@
+{
+  "announcements": [
+    {
+      "date": "22-06-2026",
+      "hash": "8165a6465d14df0acd175e29228746636f6fd5aeca3468571a049f12f7db8f3c",
+      "id": "716efc164ace6c8b130d316f66430e211b30d70b055d40ff5353f1c587f1cab4",
+      "links": [
+        "https://cetonline.karnataka.gov.in/PGCET_2026/SlotBooking",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SP_NOTE_22062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/mcarev18626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBAREV18626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keaobjections/forms/login.aspx",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_KEY_15626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MCA_KEY_15626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_MCA_KEYNOTE15626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keaomrs/kries.aspx",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABURAGI_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/HUBBLLI_DHARWAD_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE _PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_PGCET_2026_Kannadakannada.pdf",
+        "https://www.cetonline.karnataka.gov.in/KEA_EXAM_PORTAL/Forms/Candidates/Login",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_MECHANICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_ELECTRICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_COMPUTER_SCIENCE_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_CIVIL_ENGINEERING_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CV_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_EE_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CS_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_ME_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_NOTE_25052026kannada.pdf"
+      ],
+      "parent_title": null,
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SP_NOTE_22062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/mcarev18626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBAREV18626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_KEY_15626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MCA_KEY_15626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_MCA_KEYNOTE15626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABURAGI_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/HUBBLLI_DHARWAD_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE _PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_PGCET_2026_Kannadakannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_MECHANICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_ELECTRICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_COMPUTER_SCIENCE_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_CIVIL_ENGINEERING_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CV_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_EE_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CS_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_ME_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_NOTE_25052026kannada.pdf"
+      ],
+      "title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "url": "https://cetonline.karnataka.gov.in/PGCET_2026/SlotBooking",
+      "visible_text": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್ PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ಅಭ್ಯರ್ಥಿಗಳ ಅಧಿಸೂಚನೆ (22-06-2026) ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ MCA MBA PGCET - 2026 (MBA / MCA) ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (15-06-2026) PGCET - 2026 ಕೀ ಉತ್ತರ - MBA PGCET - 2026 ಕೀ ಉತ್ತರ - MCA PGCET - 2026 ಕೀ ಉತ್ತರ ಪ್ರಕಟಣೆ (15-06-2026) PGCET - 2026(MBA & MCA) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (14-06-2026) PH MBA&MCA PGCET-2026 ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (10/06/2026) ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ PGCET-2026 (MBA & MCA) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಬೆಲ್ ಸಮಯ (07/06/2026) PGCET-2026 (MBA & MCA) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 07-06-2026 PGCET - 2026 (M-Tech) ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ (02-06-2026) ಮೆಕ್ಯಾನಿಕಲ್ ಎಲೆಕ್ಟ್ರಿಕಲ್ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ PGCET - 2026 ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (25-05-2026) PGCET - 2026 ಕೀ ಉತ್ತರ (25-05-2026) Civil Engineering Electrical Computer Science Mechanical ಅಧಿಸೂಚನೆ PGCET - 2026(M.TECH) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (23-05-2026)"
+    },
+    {
+      "date": null,
+      "hash": "191fd31b4527f1618335c60abb7140af51f1b103e3f214f19ac225259a95f81e",
+      "id": "7445da3d646bd31df765670aa1acd264d7d8956e0a688633df12d7488e39ce78",
+      "links": [],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "url": null,
+      "visible_text": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್"
+    },
+    {
+      "date": "22-06-2026",
+      "hash": "d1cdb400ed68a97f060f215211cb00303229aee83fe2ec99e9e3d6c47a4019d2",
+      "id": "652c4e0c737b3b2dafbde932a278ac9621eb2ecf5bb5cd2bd65ab91dc0fc4445",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SP_NOTE_22062026kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SP_NOTE_22062026kannada.pdf"
+      ],
+      "title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ಅಭ್ಯರ್ಥಿಗಳ ಅಧಿಸೂಚನೆ (22-06-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SP_NOTE_22062026kannada.pdf",
+      "visible_text": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ಅಭ್ಯರ್ಥಿಗಳ ಅಧಿಸೂಚನೆ (22-06-2026)"
+    },
+    {
+      "date": "22-06-2026",
+      "hash": "2ff00db84f715a616560d154064d61e4f56a05a2e58e2546b17f707862777e46",
+      "id": "716c77ba8a987e94ba9f2b3da866bde4d5efa66740cdcb51e03e690483a4152a",
+      "links": [],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ಅಭ್ಯರ್ಥಿಗಳ ಅಧಿಸೂಚನೆ (22-06-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ಅಭ್ಯರ್ಥಿಗಳ ಅಧಿಸೂಚನೆ (22-06-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ಅಭ್ಯರ್ಥಿಗಳ ಅಧಿಸೂಚನೆ (22-06-2026)"
+    },
+    {
+      "date": null,
+      "hash": "10c54025331b453a410743e77bd8e87d5d790e8d2a0b235e28e4c5a63a3b545b",
+      "id": "e985fde8713b03b34219f731af06f4c6cca897e16b6132e53b20a68caec85ddf",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/mcarev18626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBAREV18626kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/mcarev18626kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBAREV18626kannada.pdf"
+      ],
+      "title": "ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/mcarev18626kannada.pdf",
+      "visible_text": "ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ MCA MBA"
+    },
+    {
+      "date": null,
+      "hash": "21dbd0e18e52dfbec90ee4d902f523e7a0925056d396a50f9eb991a5add99fa6",
+      "id": "ac2eff084266a8a993b34da1502d5c50f264eb1159bd6e1db9ee31d1153d6e0b",
+      "links": [],
+      "parent_title": "ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ",
+      "pdf_urls": [],
+      "title": "ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ",
+      "url": null,
+      "visible_text": "ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ"
+    },
+    {
+      "date": null,
+      "hash": "9b272cbcdb13be0b2f0317130db7795905d67360f3b8b76415b250b097ce1a93",
+      "id": "e764fc64d8c7cea489017de8d673e7b8d3ecddec8937c01eccf34aa9cced2990",
+      "links": [],
+      "parent_title": "MCA MBA",
+      "pdf_urls": [],
+      "title": "MCA",
+      "url": null,
+      "visible_text": "MCA"
+    },
+    {
+      "date": null,
+      "hash": "03a16f891b61644b8522943bd771cc8ffacbf4f8c2e74217109c9c188c136b07",
+      "id": "52adf9922c1fa03eef06b126e71756f71e6183417314a34cc3d7959bc9b3464c",
+      "links": [],
+      "parent_title": "MCA MBA",
+      "pdf_urls": [],
+      "title": "MBA",
+      "url": null,
+      "visible_text": "MBA"
+    },
+    {
+      "date": "15-06-2026",
+      "hash": "41234d4f5c551710794bc90c7a751c6a4b7f4b2aec73f358bcd70d75ece99f79",
+      "id": "2d0156443ab580a7d34a5c720b9f9cdcb474a8bbd986ad353bde36f499154273",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keaobjections/forms/login.aspx"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 (MBA / MCA) ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (15-06-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keaobjections/forms/login.aspx",
+      "visible_text": "PGCET - 2026 (MBA / MCA) ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (15-06-2026)"
+    },
+    {
+      "date": "15-06-2026",
+      "hash": "b616cd0579e96aec34ed232cf28c6854ab2d3569d62b009d0ba9cf1fc5138922",
+      "id": "e3280a098b22c24e97b0c5deb38259c52b45507d4279827c3f0ddfdcf4366687",
+      "links": [],
+      "parent_title": "PGCET - 2026 (MBA / MCA) ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (15-06-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 (MBA / MCA) ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (15-06-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026 (MBA / MCA) ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (15-06-2026)"
+    },
+    {
+      "date": null,
+      "hash": "c192c3a1ddbd04185069225fac2ae28527e9735e0b8e047da8d505652a5ec246",
+      "id": "882bb625cfd9d9eab7547a569328791ecdfb76e710ada88c7906af0171234fc2",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_KEY_15626kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_KEY_15626kannada.pdf"
+      ],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ - MBA",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_KEY_15626kannada.pdf",
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ - MBA"
+    },
+    {
+      "date": null,
+      "hash": "e2e3c092a4a1991437760be8b4f630dfb38085cf823d89ae3d8d612ed7783bca",
+      "id": "6bce0490d0d53768c110ffeb563e294bcafc198bcbfb27bf22c6cb9ac1027dd1",
+      "links": [],
+      "parent_title": "PGCET - 2026 ಕೀ ಉತ್ತರ - MBA",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ - MBA",
+      "url": null,
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ - MBA"
+    },
+    {
+      "date": null,
+      "hash": "4b48d7a28d9ea7fe5ee53eda9d1b887248e687648bc9ccf6a4a3c327834946a6",
+      "id": "8643c71fadd4e9f9b0f5cd6132ca9deb7bc9cf2ee2760beaae6dbc6c600f7618",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MCA_KEY_15626kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MCA_KEY_15626kannada.pdf"
+      ],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ - MCA",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MCA_KEY_15626kannada.pdf",
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ - MCA"
+    },
+    {
+      "date": null,
+      "hash": "74ba7964566a210dcddc82fd4a65462a36822957cf7a497d79887c0e3ec76708",
+      "id": "31bee4f3f35ae01bf09fb724ca0d23f5bda7da53459fe7224dcedfbf9f3afc0b",
+      "links": [],
+      "parent_title": "PGCET - 2026 ಕೀ ಉತ್ತರ - MCA",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ - MCA",
+      "url": null,
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ - MCA"
+    },
+    {
+      "date": "15-06-2026",
+      "hash": "49982c6c0fb6835e4a6249e00c135a36c2922be6d84a5c0e62c3f3cccfa7e97c",
+      "id": "6b9427c07e540f47af2dc9bdb583908b0b75b35046086f59eac93d036ad79d3e",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_MCA_KEYNOTE15626kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_MCA_KEYNOTE15626kannada.pdf"
+      ],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ ಪ್ರಕಟಣೆ (15-06-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MBA_MCA_KEYNOTE15626kannada.pdf",
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ ಪ್ರಕಟಣೆ (15-06-2026)"
+    },
+    {
+      "date": "15-06-2026",
+      "hash": "19ba6c318055056460c067c0f856d149041c2f52654a505d34c6c11ae361f0fe",
+      "id": "50346c889399d4d2de9f705b86bac9bd7325f391bea4dd289ab095ff1d981646",
+      "links": [],
+      "parent_title": "PGCET - 2026 ಕೀ ಉತ್ತರ ಪ್ರಕಟಣೆ (15-06-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ ಪ್ರಕಟಣೆ (15-06-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ ಪ್ರಕಟಣೆ (15-06-2026)"
+    },
+    {
+      "date": "14-06-2026",
+      "hash": "585793f69317b2ec40a7a6568649843cf0e613c7ee706de85c27520266fb1645",
+      "id": "c27cd44607f7cbd6f7623d1d299de190e44e0a13cf02674eba64e16a7bc6b7b0",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keaomrs/kries.aspx"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [],
+      "title": "PGCET - 2026(MBA & MCA) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (14-06-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keaomrs/kries.aspx",
+      "visible_text": "PGCET - 2026(MBA & MCA) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (14-06-2026)"
+    },
+    {
+      "date": "14-06-2026",
+      "hash": "c616bc00f412cd15960d1e91218dc1e0dbef8219a7981661bfe74061732901de",
+      "id": "c597f116e14fce39380d3a6eae5aa8a0a88f1a08661af3d16718e824636e5d23",
+      "links": [],
+      "parent_title": "PGCET - 2026(MBA & MCA) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (14-06-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026(MBA & MCA) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (14-06-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026(MBA & MCA) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (14-06-2026)"
+    },
+    {
+      "date": "10/06/2026",
+      "hash": "72038d141fd7ad72a1705a740d7536eb6fab80092de24718e329bdabc020d5da",
+      "id": "309b2b2e216d36ea55fc90424d1c6903fd6ba3b478ba847eb63921b27378bce8",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABURAGI_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/HUBBLLI_DHARWAD_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE _PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PH_TYPE_MBA_AND_MCA_2026kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABURAGI_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/HUBBLLI_DHARWAD_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE _PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PH_TYPE_MBA_AND_MCA_2026kannada.pdf"
+      ],
+      "title": "PH MBA&MCA PGCET-2026 ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (10/06/2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PH_TYPE_MBA_AND_MCA_2026kannada.pdf",
+      "visible_text": "PH MBA&MCA PGCET-2026 ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (10/06/2026) ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": "10/06/2026",
+      "hash": "d1f42ce488ce8311463ee4427c950521e09f675ca7e61187dd846101fa9aafc8",
+      "id": "fc616156de5f784d22513786b20d3333a3e417db427331071c80b625286977fc",
+      "links": [],
+      "parent_title": "PH MBA&MCA PGCET-2026 ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (10/06/2026)",
+      "pdf_urls": [],
+      "title": "PH MBA&MCA PGCET-2026 ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (10/06/2026)",
+      "url": null,
+      "visible_text": "PH MBA&MCA PGCET-2026 ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (10/06/2026)"
+    },
+    {
+      "date": null,
+      "hash": "96ca61b988694ee0b722de2d958bb600d910a68d5490a8cccd199f0f4bb7c06e",
+      "id": "3d1a6127fbc8b515adff0b6f1163a775515d884c873fa010aa8345c75729ea62",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "e4cac96000b8980bad65dbb8f6f79369ad68a7dfc64a54954c9c2103a428ccfd",
+      "id": "0826e53bd897a1d52bee843bed069dc92aa639d551526f48c7ac35f3b3eba429",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "e88d6078c87231480c7aa6a4d144aabb359d3d072989567f6a6605afe66eb9ae",
+      "id": "51ae049f106020f7a6ed38a79ed8a564ada8d01cc18df4cd6b65dda634c418c8",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "d9aedeaf1105c18334b8b9d22697d8d4f0ee7306dac5ae03345baec3d672d939",
+      "id": "babc98f60503115cce6b441565a1cbb40201d844faa183d9771e90b3120a3dd8",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "407b1c6d6911cdf6e86eb88898e8fbcc2bc773193aea4bdd41d26f5b87e8f058",
+      "id": "72d9b8c9dac207b1bfe0587fb99d02ca0ec23a32963dc9d76932352fda8fa325",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಹುಬ್ಬಳ್ಳಿ-ಧಾರವಾಡ ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಬೆಂಗಳೂರು ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": "07/06/2026",
+      "hash": "d0db763e50b031be1ed72109faee67949bec0bbc2e4a77c5817f7e5e90f7bebe",
+      "id": "8e7ef864f6d9799387395b71901a1db1730a9bc118a1e13b632068e132a16ed5",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_PGCET_2026_Kannadakannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_PGCET_2026_Kannadakannada.pdf"
+      ],
+      "title": "PGCET-2026 (MBA & MCA) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಬೆಲ್ ಸಮಯ (07/06/2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_PGCET_2026_Kannadakannada.pdf",
+      "visible_text": "PGCET-2026 (MBA & MCA) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಬೆಲ್ ಸಮಯ (07/06/2026)"
+    },
+    {
+      "date": "07/06/2026",
+      "hash": "a09ca6229a152f17d1b842c6fee7517d4633ecf7bb39494cd6b0fb5701861a4d",
+      "id": "3ff8e1cf8f7eedc5667408a7a75a75f1eb6cb6044d56a65df44742808857993d",
+      "links": [],
+      "parent_title": "PGCET-2026 (MBA & MCA) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಬೆಲ್ ಸಮಯ (07/06/2026)",
+      "pdf_urls": [],
+      "title": "PGCET-2026 (MBA & MCA) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಬೆಲ್ ಸಮಯ (07/06/2026)",
+      "url": null,
+      "visible_text": "PGCET-2026 (MBA & MCA) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಬೆಲ್ ಸಮಯ (07/06/2026)"
+    },
+    {
+      "date": "07-06-2026",
+      "hash": "fb32db97bca33bb7b6d0fca0bdc45c9d15e3cf74a4233bc1fcb9a67ec48a8533",
+      "id": "085d4595e6f7b83f3373f90797fecc08050b47d3ea2cc68ca2a609ef63048b19",
+      "links": [
+        "https://www.cetonline.karnataka.gov.in/KEA_EXAM_PORTAL/Forms/Candidates/Login"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [],
+      "title": "PGCET-2026 (MBA & MCA) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 07-06-2026",
+      "url": "https://www.cetonline.karnataka.gov.in/KEA_EXAM_PORTAL/Forms/Candidates/Login",
+      "visible_text": "PGCET-2026 (MBA & MCA) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 07-06-2026"
+    },
+    {
+      "date": "07-06-2026",
+      "hash": "2fa3f68881445caa79e081ee11fd9787d69af5e0d57f6fc260774b491b1afe32",
+      "id": "4bd1a5b6b902901594a9290203cbb16d581fea473b6c1c5ddd74e2b88a2a9eda",
+      "links": [],
+      "parent_title": "PGCET-2026 (MBA & MCA) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 07-06-2026",
+      "pdf_urls": [],
+      "title": "PGCET-2026 (MBA & MCA) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 07-06-2026",
+      "url": null,
+      "visible_text": "PGCET-2026 (MBA & MCA) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 07-06-2026"
+    },
+    {
+      "date": "02-06-2026",
+      "hash": "1c813c165514ef746d483a42264b77399fde3387db5bf23a5ffacb3a0aeb9cb8",
+      "id": "58fab08b5dab6240d2305bccf0e273cf63d727d98b7e8d7ba7a57757f86f48db",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_MECHANICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_ELECTRICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_COMPUTER_SCIENCE_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_CIVIL_ENGINEERING_02062026kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_MECHANICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_ELECTRICAL_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_COMPUTER_SCIENCE_02062026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_CIVIL_ENGINEERING_02062026kannada.pdf"
+      ],
+      "title": "PGCET - 2026 (M-Tech) ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ (02-06-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_MECHANICAL_02062026kannada.pdf",
+      "visible_text": "PGCET - 2026 (M-Tech) ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ (02-06-2026) ಮೆಕ್ಯಾನಿಕಲ್ ಎಲೆಕ್ಟ್ರಿಕಲ್ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್"
+    },
+    {
+      "date": "02-06-2026",
+      "hash": "a27af52612bdec2ff29981dfce751cd344b52626fd65e961b716a8d469ce0252",
+      "id": "bbabc6d7d660b79fcfeb0d8fc846f115c9d333e238689b0964145b79b5a46edb",
+      "links": [],
+      "parent_title": "PGCET - 2026 (M-Tech) ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ (02-06-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 (M-Tech) ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ (02-06-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026 (M-Tech) ಪರಿಷ್ಕೃತ ಕೀ ಉತ್ತರ (02-06-2026)"
+    },
+    {
+      "date": null,
+      "hash": "008fe2ca734ab4cfff339058158a1694584bd3526949076dc4366005bc900ee2",
+      "id": "4d1b55d915df0b37852529811c515c9eb6b049d4e0f0d8b7684ec9f4e6350e23",
+      "links": [],
+      "parent_title": "ಮೆಕ್ಯಾನಿಕಲ್ ಎಲೆಕ್ಟ್ರಿಕಲ್ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್",
+      "pdf_urls": [],
+      "title": "ಮೆಕ್ಯಾನಿಕಲ್",
+      "url": null,
+      "visible_text": "ಮೆಕ್ಯಾನಿಕಲ್"
+    },
+    {
+      "date": null,
+      "hash": "1dcb49fecf455c9d079bee79608cb397c2ad575dfc6a93840024f81c6dc40560",
+      "id": "0e7a76a0547cd2b4389802b35d3ba99e0a2b05b51cbafae699fbe9f4fa2cb059",
+      "links": [],
+      "parent_title": "ಮೆಕ್ಯಾನಿಕಲ್ ಎಲೆಕ್ಟ್ರಿಕಲ್ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್",
+      "pdf_urls": [],
+      "title": "ಎಲೆಕ್ಟ್ರಿಕಲ್",
+      "url": null,
+      "visible_text": "ಎಲೆಕ್ಟ್ರಿಕಲ್"
+    },
+    {
+      "date": null,
+      "hash": "9b13d2ca28534099bbcc181c3a371ff7e6e7b3670af717124fd100d099bea107",
+      "id": "24257908eeff359b866e3bb40e498ef03db8e160b4f3449a2097e2010769432b",
+      "links": [],
+      "parent_title": "ಮೆಕ್ಯಾನಿಕಲ್ ಎಲೆಕ್ಟ್ರಿಕಲ್ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್",
+      "pdf_urls": [],
+      "title": "ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ",
+      "url": null,
+      "visible_text": "ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ"
+    },
+    {
+      "date": null,
+      "hash": "f1432aa04c01bc8b62f710252f7d3421659c36d6234ba3549ad8ad134dfe13a1",
+      "id": "46d9d8c7ad09f11748755b9c1499a9574bbb9c63e0ee3cc78567576ac041a480",
+      "links": [],
+      "parent_title": "ಮೆಕ್ಯಾನಿಕಲ್ ಎಲೆಕ್ಟ್ರಿಕಲ್ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನ ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್",
+      "pdf_urls": [],
+      "title": "ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್",
+      "url": null,
+      "visible_text": "ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್"
+    },
+    {
+      "date": "25-05-2026",
+      "hash": "fe9c746e5e63cabb2df8a458f2a0558b956df946719da2af5e239aab16112a4d",
+      "id": "1d75d72d7e18dbb2644c105b494b3017bfac6ca5ff5a198d559d90e2692fd871",
+      "links": [],
+      "parent_title": "PGCET - 2026 ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (25-05-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (25-05-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ ಆಕ್ಷೇಪಣೆ ಲಿಂಕ್ (25-05-2026)"
+    },
+    {
+      "date": "25-05-2026",
+      "hash": "a26979b2c13ae935bcfae4219bb01e479aebe6379a13b056c278c2de1f45ccc5",
+      "id": "b4c89c79e50859fd77a4825157178b0f01020dc8b1b0b215a1be19e0167f3659",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CV_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_EE_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CS_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_ME_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_NOTE_25052026kannada.pdf"
+      ],
+      "parent_title": "PGCET - 2026 ವಿಶೇಷ ವರ್ಗದ ದಾಖಲೆ ವೆರಿಫಿಕೇಷನ್ ಸ್ಲಾಟ್ ಬುಕಿಂಗ್ ಲಿಂಕ್",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CV_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_EE_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CS_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_ME_25kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_NOTE_25052026kannada.pdf"
+      ],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ (25-05-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_KEY_ANS_CV_25kannada.pdf",
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ (25-05-2026) Civil Engineering Electrical Computer Science Mechanical ಅಧಿಸೂಚನೆ"
+    },
+    {
+      "date": "25-05-2026",
+      "hash": "802e4545af70275c20ee07abe64dc65dd116a50378da05b73133d23a47ea6ec0",
+      "id": "767d3417db55774a6273921353ae26ac511ff7f8897cb8216750cf686fbe569d",
+      "links": [],
+      "parent_title": "PGCET - 2026 ಕೀ ಉತ್ತರ (25-05-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ಕೀ ಉತ್ತರ (25-05-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026 ಕೀ ಉತ್ತರ (25-05-2026)"
+    },
+    {
+      "date": null,
+      "hash": "66ccf2d1b20035354a8afec79d4a23bcde5c8b363b0431dfc12feef23f0a22ca",
+      "id": "d76170d856d38d63d99c95008e0a45fdec8ae8e101171911fe24f82ea08df6e0",
+      "links": [],
+      "parent_title": "Civil Engineering Electrical Computer Science Mechanical ಅಧಿಸೂಚನೆ",
+      "pdf_urls": [],
+      "title": "Civil Engineering",
+      "url": null,
+      "visible_text": "Civil Engineering"
+    },
+    {
+      "date": null,
+      "hash": "c4b032985d0094cbcbedbc5285334b16ac65f82f5f5f25204797db7f3c53f4fb",
+      "id": "cc1f9324f5f8a66a944c1abc7e73add9e088de183f836c31bef27d5a0c05f5bc",
+      "links": [],
+      "parent_title": "Civil Engineering Electrical Computer Science Mechanical ಅಧಿಸೂಚನೆ",
+      "pdf_urls": [],
+      "title": "Electrical",
+      "url": null,
+      "visible_text": "Electrical"
+    },
+    {
+      "date": null,
+      "hash": "d6e22b3f569c7436d4ebdc7b1c0cbdfde2ee092fe6fdef8ac674959c6bec9e92",
+      "id": "16162cfc8478139ce15370ea5a12dc9d2f45bd805275c2864bcbfdaf8bf9ebc9",
+      "links": [],
+      "parent_title": "Civil Engineering Electrical Computer Science Mechanical ಅಧಿಸೂಚನೆ",
+      "pdf_urls": [],
+      "title": "Computer Science",
+      "url": null,
+      "visible_text": "Computer Science"
+    },
+    {
+      "date": null,
+      "hash": "ef5888e767471615dfe7bac024251685f017d826529de9f21725e2481f8b9491",
+      "id": "16c6056b94b461cf11160e0a8cd35083b843300623fc6faed56d10986b895184",
+      "links": [],
+      "parent_title": "Civil Engineering Electrical Computer Science Mechanical ಅಧಿಸೂಚನೆ",
+      "pdf_urls": [],
+      "title": "Mechanical",
+      "url": null,
+      "visible_text": "Mechanical"
+    },
+    {
+      "date": null,
+      "hash": "76cb1eee521a5352978055ede7c614f692031a8e18acd6288d1e4e2e47532ab8",
+      "id": "29f2be4a33b0b703b40b9ca160a56cfdb07f4d9302fec5ed55d50b1dee6ff432",
+      "links": [],
+      "parent_title": "Civil Engineering Electrical Computer Science Mechanical ಅಧಿಸೂಚನೆ",
+      "pdf_urls": [],
+      "title": "ಅಧಿಸೂಚನೆ",
+      "url": null,
+      "visible_text": "ಅಧಿಸೂಚನೆ"
+    },
+    {
+      "date": "23-05-2026",
+      "hash": "5d28038367fe27b3269dabc600d344c02d47d81bda22e1226683d62b0070a92e",
+      "id": "35db4a8006988115a2fed1d16423a5d59871172d0eeadf5d2c28d609a10f4df9",
+      "links": [],
+      "parent_title": "PGCET - 2026(M.TECH) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (23-05-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026(M.TECH) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (23-05-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026(M.TECH) ಪರೀಕ್ಷೆ - ಕೇಂದ್ರವಾರು OMR ವೀಕ್ಷಿಸುವ ಲಿಂಕ್ . (23-05-2026)"
+    },
+    {
+      "date": "22-05-2026",
+      "hash": "bea89ace2147fd23b21cc232373e4042f9ce954ac10847ff91ebd193e4a170dd",
+      "id": "da91b3b97916633d5d0a9ae3ec84ff548d9bd6c4974da2ca60a9c70406d1e1bf",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/updated_govt_ph_guidelines_2025_all_examsenglishkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_DCET_dress_22052026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/TUMKUR_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DHARWAD_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABUARGI_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BAGALKOTE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BALLARI_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_SOUTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_Kannada_PGCET_2026_Mtechkannada.pdf",
+        "https://www.cetonline.karnataka.gov.in/KEA_EXAM_PORTAL/Forms/Candidates/Login",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_SCH_KAN_14052026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXT_08042026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/VTU_PGCET_COURSE_WISE_ELIGIBILITY_LISTenglish.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_Information_Bulletin26032026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/PGCET_2026",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXAM_TBL_KAN_20032kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keaenquiry/forms/enquiry.aspx",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/12_MCAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/11_MBAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/2_Computer_streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/1_Civil%20Engineeringkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/9_Electricl_Streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/10_Mechanical_Streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SYLB_NOTE_16032026kannada.pdf"
+      ],
+      "parent_title": null,
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/updated_govt_ph_guidelines_2025_all_examsenglishkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_DCET_dress_22052026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/TUMKUR_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DHARWAD_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABUARGI_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BAGALKOTE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BALLARI_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_SOUTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_Kannada_PGCET_2026_Mtechkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_SCH_KAN_14052026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXT_08042026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/VTU_PGCET_COURSE_WISE_ELIGIBILITY_LISTenglish.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_Information_Bulletin26032026kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXAM_TBL_KAN_20032kannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/12_MCAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/11_MBAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/2_Computer_streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/1_Civil%20Engineeringkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/9_Electricl_Streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/10_Mechanical_Streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SYLB_NOTE_16032026kannada.pdf"
+      ],
+      "title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/updated_govt_ph_guidelines_2025_all_examsenglishkannada.pdf",
+      "visible_text": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು PGCET - 2026: ನಿಷೇಧಿತ ವಸ್ತುಗಳು ಮತ್ತು ಡ್ರೆಸ್ ಕೋಡ್ (22-05-2026) PGCET-2026(M.Tech) PH ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (20/05/2026) ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ PGCET-2026 (M.Tech) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಗಂಟೆ ಸಮಯ (20/05/2026) PGCET-2026 (ME/M.Tech) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 15-05-2026 PGCET ಪರೀಕ್ಷೆಗಳ ವೇಳಾಪಟ್ಟಿ (14-05-2026) PGCET - 2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ನೋಂದಣಿ 30-04-2026 ರವರೆಗೆ ತೆರೆದಿರುತ್ತದೆ ಮತ್ತು ಪಾವತಿ ಸೌಲಭ್ಯವು 05-05-2026 ರವರೆಗೆ ಲಭ್ಯವಿರುತ್ತದೆ. PGCET 2026: ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ದಿನಾಂಕವನ್ನು ವಿಸ್ತರಿಸಲಾಗಿದೆ (08-04-2026). PGCET - 2026 VTU ಕೋರ್ಸ್‌ಗಳ ಅರ್ಹತಾ ಪಟ್ಟಿ. 31/03/2026 PGCET-2026 ಮಾಹಿತಿ ಬುಲೆಟಿನ್. 26/03/2026 PGCET-2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಲಿಂಕ್. 24/03/2026 PGCET-2026 - 1ನೇ ವರ್ಷ / 1ನೇ ಸೆಮಿಸ್ಟರ್ MBA, MCA, M.E., M. Tech., M. Arch ಕೋರ್ಸ್‌ಗಳಿಗೆ ಪ್ರವೇಶ. (20-03-2026) PCET-2026 ಅಭ್ಯರ್ಥಿಗಳ ಕುಂದುಕೊರತೆ ಪೋರ್ಟಲ್ ಲಿಂಕ್ PGCET-2026 ಪಠ್ಯಕ್ರಮ. MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science PGCET-2026 ಪಠ್ಯಕ್ರಮ ಟಿಪ್ಪಣಿ."
+    },
+    {
+      "date": null,
+      "hash": "fe10d4797d349d1906db0f37896cc34b0a12a331f7caa9bd79957c4d2f7c4452",
+      "id": "d4f681aaa97add3c893051d7a493e5b5b4d8ca9a8ba3822bbe1fb4cf050a088d",
+      "links": [],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [],
+      "title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "url": null,
+      "visible_text": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು"
+    },
+    {
+      "date": "22-05-2026",
+      "hash": "f8fb8003e692e7591fa870cfaecd664fb0d2d5815dbabdefae5fd8364645201c",
+      "id": "4ba6fe3fd290cda21cc9484976628a6a1e8aea0d3b3902e3780b54b3566c2042",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_DCET_dress_22052026kannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_DCET_dress_22052026kannada.pdf"
+      ],
+      "title": "PGCET - 2026: ನಿಷೇಧಿತ ವಸ್ತುಗಳು ಮತ್ತು ಡ್ರೆಸ್ ಕೋಡ್ (22-05-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_DCET_dress_22052026kannada.pdf",
+      "visible_text": "PGCET - 2026: ನಿಷೇಧಿತ ವಸ್ತುಗಳು ಮತ್ತು ಡ್ರೆಸ್ ಕೋಡ್ (22-05-2026)"
+    },
+    {
+      "date": "22-05-2026",
+      "hash": "16c2b44fa43d53fd2d4b189f0769521ffc8ed8ee9d5e915d7b1cdec839f76e80",
+      "id": "7546f3712812f896afaaf41d9da23a05f9a4c925a0793711414b2a3871084794",
+      "links": [],
+      "parent_title": "PGCET - 2026: ನಿಷೇಧಿತ ವಸ್ತುಗಳು ಮತ್ತು ಡ್ರೆಸ್ ಕೋಡ್ (22-05-2026)",
+      "pdf_urls": [],
+      "title": "PGCET - 2026: ನಿಷೇಧಿತ ವಸ್ತುಗಳು ಮತ್ತು ಡ್ರೆಸ್ ಕೋಡ್ (22-05-2026)",
+      "url": null,
+      "visible_text": "PGCET - 2026: ನಿಷೇಧಿತ ವಸ್ತುಗಳು ಮತ್ತು ಡ್ರೆಸ್ ಕೋಡ್ (22-05-2026)"
+    },
+    {
+      "date": "20/05/2026",
+      "hash": "7c3e00275bd1681b115622a3a2cf04e22cefebe1782a582f6ca43f52b87bd599",
+      "id": "bc23acccc2f70f85e584f89757854f6a3c5603721667afb20cb4aaf2d0e06dca",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/TUMKUR_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DHARWAD_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABUARGI_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BAGALKOTE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BALLARI_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_SOUTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/TUMKUR_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DAVANGERE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/DHARWAD_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/KALABUARGI_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BAGALKOTE_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BALLARI_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_SOUTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/BENGALURU_NORTH_PGCET _2026_PH_CANDIDATES_LISTkannada.pdf"
+      ],
+      "title": "PGCET-2026(M.Tech) PH ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (20/05/2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/MYSURU_PGCET_2026_PH_CANDIDATES_LISTkannada.pdf",
+      "visible_text": "PGCET-2026(M.Tech) PH ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (20/05/2026) ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ"
+    },
+    {
+      "date": "20/05/2026",
+      "hash": "003782a1e3b0b8a24a366989ea8d00450efa052ac32751fa5b848ca7bfb9945d",
+      "id": "f3688d5f7384a69b8be3e5932f77733048f280357500905c60e3871692965ca4",
+      "links": [],
+      "parent_title": "PGCET-2026(M.Tech) PH ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (20/05/2026)",
+      "pdf_urls": [],
+      "title": "PGCET-2026(M.Tech) PH ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (20/05/2026)",
+      "url": null,
+      "visible_text": "PGCET-2026(M.Tech) PH ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ (20/05/2026)"
+    },
+    {
+      "date": null,
+      "hash": "e2b85eb07132deda549b3098ca07f3a62176b80ad5a4ba1125097d599d7d8e24",
+      "id": "b152405cb932997673ff9cc1dab02e83560659c58f812466168ff4444d013f0b",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "ac387aaa79fda7ff4f39addea6cb2a3e271185d6a9cab5fad4b6bfecf1074cd0",
+      "id": "0cca5d293444ee024094c89258d4966eaa308c8f62118321c49a55366b90f988",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "c29a2d70f6e56f66bcc981c4c5913837438506be53a0ba0ae166d0c85cd598ed",
+      "id": "6ba138431854291d2be4b69fe94af91b1cdaca11d04aec6b5aa43beb6cb61b00",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "0102c1c45b3ef3c11f96278a0d0cc8b41642175a4ec7b6a6b8387c4a482f401e",
+      "id": "4d999877e22343e55102d21cebfa36a193b5f95c83d28ca9329a9c36c048c8f5",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಧಾರವಾಡ PH ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಧಾರವಾಡ PH ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "2c1084a7afeb07db71753acae2b1c43ca8ff8808ac2a308139533dac4910cfc6",
+      "id": "811573ae5e52c814a4eb0d758ed08eec93c8826733e844fda219c20f69cc0061",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "1ceac5587ddfa2dbb3258263c2d8087e5c2a40902c28c66cdd399c888451c98d",
+      "id": "3decbca78840bf6c9862425abb0f3d7ae15b3cf23e2f99a91e2906ae4e903b61",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "b8bf4628d007e447ecce3d79115f95c079cf217a5be4239f9fa3590b148e41b7",
+      "id": "b1b089c652072d478fc94aff88c8bbd815ed05b50d259f9395d5c3562034ef32",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "a0fe92c47afc3fffc1d1186814c5e4a1252796b8029b0a61ef5a31d09a030437",
+      "id": "fa748c7c5a0d0cce5732217db3a40b8d99cef8724409a937c236527bd90fa6e8",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ"
+    },
+    {
+      "date": null,
+      "hash": "4d4618e3cdbb6e398f7fff050395c0e8f230e5a5f981460aad02cd9122d640b0",
+      "id": "a149fbcb394994bdc381a3194a6c6262a6270a318de7c1b182bc09414c17c881",
+      "links": [],
+      "parent_title": "ಮೈಸೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ತುಮಕೂರು ಪಿಎಚ್ ಪಟ್ಟಿ ದಾವಣಗೆರೆ ಪಿಎಚ್ ಪಟ್ಟಿ ಧಾರವಾಡ PH ಪಟ್ಟಿ ಕಲಬುರ್ಗಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬಾಗಲಕೋಟೆಯ pH ಪಟ್ಟಿ ಬಳ್ಳಾರಿ ಪಿಎಚ್ ಪಟ್ಟಿ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ PH ಪಟ್ಟಿ ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "pdf_urls": [],
+      "title": "ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ",
+      "url": null,
+      "visible_text": "ಬೆಂಗಳೂರು ಉತ್ತರ PH ಪಟ್ಟಿ"
+    },
+    {
+      "date": "20/05/2026",
+      "hash": "6969552a6161c62c3b4115fb91045b404a285ce2cb4b30728b229ac54268171d",
+      "id": "4c42c297116ab71b6c61b64ee8a7f5b181207d78758fc045fda3da493cdbc192",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_Kannada_PGCET_2026_Mtechkannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_Kannada_PGCET_2026_Mtechkannada.pdf"
+      ],
+      "title": "PGCET-2026 (M.Tech) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಗಂಟೆ ಸಮಯ (20/05/2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/Bell_Timings_Kannada_PGCET_2026_Mtechkannada.pdf",
+      "visible_text": "PGCET-2026 (M.Tech) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಗಂಟೆ ಸಮಯ (20/05/2026)"
+    },
+    {
+      "date": "20/05/2026",
+      "hash": "b720919da099191d76ea7293fb7d54fad75774cc3c01c2b3f4b27e02b67bc395",
+      "id": "dd20b7d04cbd695810737536e84e04cf4a294fc92fd4ca90883385bb56a15021",
+      "links": [],
+      "parent_title": "PGCET-2026 (M.Tech) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಗಂಟೆ ಸಮಯ (20/05/2026)",
+      "pdf_urls": [],
+      "title": "PGCET-2026 (M.Tech) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಗಂಟೆ ಸಮಯ (20/05/2026)",
+      "url": null,
+      "visible_text": "PGCET-2026 (M.Tech) ಪರೀಕ್ಷೆಗೆ ಹಾಜರಾಗುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಗಂಟೆ ಸಮಯ (20/05/2026)"
+    },
+    {
+      "date": "15-05-2026",
+      "hash": "d3b55d88623eed126c428b671d132bee3b0d5152bb7f10c73abfe41ba030d91e",
+      "id": "55495c22fb1f4fcf4a4f51015521cdfe1ef8138d77da7c82b03ef4509a744c0c",
+      "links": [],
+      "parent_title": "PGCET-2026 (ME/M.Tech) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 15-05-2026",
+      "pdf_urls": [],
+      "title": "PGCET-2026 (ME/M.Tech) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 15-05-2026",
+      "url": null,
+      "visible_text": "PGCET-2026 (ME/M.Tech) ಪ್ರವೇಶ ಟಿಕೆಟ್ ಡೌನ್‌ಲೋಡ್ ಲಿಂಕ್ 🔗 - 15-05-2026"
+    },
+    {
+      "date": "14-05-2026",
+      "hash": "19805c8d1936df0ca31c0367c5a2922e267e45e0039b64f34cec9e0540df689b",
+      "id": "f8012960ce445958470c78f4ff0f45febbf148b283a14a69e4b886e5b67f502e",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_SCH_KAN_14052026kannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_SCH_KAN_14052026kannada.pdf"
+      ],
+      "title": "PGCET ಪರೀಕ್ಷೆಗಳ ವೇಳಾಪಟ್ಟಿ (14-05-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_SCH_KAN_14052026kannada.pdf",
+      "visible_text": "PGCET ಪರೀಕ್ಷೆಗಳ ವೇಳಾಪಟ್ಟಿ (14-05-2026)"
+    },
+    {
+      "date": "14-05-2026",
+      "hash": "41e78ebfc6cfef3ac8a884ca25d29bdf9b88dee0c63abefa416d9c6e3f8f63a6",
+      "id": "dee2852fffcbd11cd743f7955e778d0347bd7dcaa2de80d68b516b90793c18f5",
+      "links": [],
+      "parent_title": "PGCET ಪರೀಕ್ಷೆಗಳ ವೇಳಾಪಟ್ಟಿ (14-05-2026)",
+      "pdf_urls": [],
+      "title": "PGCET ಪರೀಕ್ಷೆಗಳ ವೇಳಾಪಟ್ಟಿ (14-05-2026)",
+      "url": null,
+      "visible_text": "PGCET ಪರೀಕ್ಷೆಗಳ ವೇಳಾಪಟ್ಟಿ (14-05-2026)"
+    },
+    {
+      "date": "30-04-2026",
+      "hash": "76fac19e016082f16060d349f18fd33b89ea482575fd9718647c75a215bd1762",
+      "id": "bae9fe0eee07fba9354f487306a7e610e0a5a251a54a30df31ade3659cb68657",
+      "links": [],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ನೋಂದಣಿ 30-04-2026 ರವರೆಗೆ ತೆರೆದಿರುತ್ತದೆ ಮತ್ತು ಪಾವತಿ ಸೌಲಭ್ಯವು 05-05-2026 ರವರೆಗೆ ಲಭ್ಯವಿರುತ್ತದೆ.",
+      "url": null,
+      "visible_text": "PGCET - 2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ನೋಂದಣಿ 30-04-2026 ರವರೆಗೆ ತೆರೆದಿರುತ್ತದೆ ಮತ್ತು ಪಾವತಿ ಸೌಲಭ್ಯವು 05-05-2026 ರವರೆಗೆ ಲಭ್ಯವಿರುತ್ತದೆ."
+    },
+    {
+      "date": "30-04-2026",
+      "hash": "528033dd109e25aef321323208f0b365335883184d07c30472f0179e296eb626",
+      "id": "f859e98bcd356034ed8aa4f3692cc25dbba0b5a9e917b8d9f2350efe36906ad6",
+      "links": [],
+      "parent_title": "PGCET - 2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ನೋಂದಣಿ 30-04-2026 ರವರೆಗೆ ತೆರೆದಿರುತ್ತದೆ ಮತ್ತು ಪಾವತಿ ಸೌಲಭ್ಯವು 05-05-2026 ರವರೆಗೆ ಲಭ್ಯವಿರುತ್ತದೆ.",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ನೋಂದಣಿ 30-04-2026 ರವರೆಗೆ ತೆರೆದಿರುತ್ತದೆ ಮತ್ತು ಪಾವತಿ ಸೌಲಭ್ಯವು 05-05-2026 ರವರೆಗೆ ಲಭ್ಯವಿರುತ್ತದೆ.",
+      "url": null,
+      "visible_text": "PGCET - 2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ನೋಂದಣಿ 30-04-2026 ರವರೆಗೆ ತೆರೆದಿರುತ್ತದೆ ಮತ್ತು ಪಾವತಿ ಸೌಲಭ್ಯವು 05-05-2026 ರವರೆಗೆ ಲಭ್ಯವಿರುತ್ತದೆ."
+    },
+    {
+      "date": "08-04-2026",
+      "hash": "2a24da88fee431b34091571e9955dcb4124c033b83008008b7e6bd0064f5f343",
+      "id": "a0f44324ace42d95e69087940d8f62ccd5ddd0940516dacad4e71c00635fa37b",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXT_08042026kannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXT_08042026kannada.pdf"
+      ],
+      "title": "PGCET 2026: ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ದಿನಾಂಕವನ್ನು ವಿಸ್ತರಿಸಲಾಗಿದೆ (08-04-2026).",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXT_08042026kannada.pdf",
+      "visible_text": "PGCET 2026: ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ದಿನಾಂಕವನ್ನು ವಿಸ್ತರಿಸಲಾಗಿದೆ (08-04-2026)."
+    },
+    {
+      "date": "08-04-2026",
+      "hash": "e92d33ba8d94db3faaec8a2e1db70ca94e8abccdc22954ad6442b797e5b512ef",
+      "id": "12f3fffe91c2153ee88440c3770cb8fb50d54b214f81e6a0aa796ffd8cec3b0d",
+      "links": [],
+      "parent_title": "PGCET 2026: ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ದಿನಾಂಕವನ್ನು ವಿಸ್ತರಿಸಲಾಗಿದೆ (08-04-2026).",
+      "pdf_urls": [],
+      "title": "PGCET 2026: ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ದಿನಾಂಕವನ್ನು ವಿಸ್ತರಿಸಲಾಗಿದೆ (08-04-2026).",
+      "url": null,
+      "visible_text": "PGCET 2026: ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ದಿನಾಂಕವನ್ನು ವಿಸ್ತರಿಸಲಾಗಿದೆ (08-04-2026)."
+    },
+    {
+      "date": "31/03/2026",
+      "hash": "8d02ab025c43cc54bd0f9011b7487c60c0d482afe364fdd3b7a5f3d9be323b26",
+      "id": "ed7135210ebf1d8409dfd8427068225885cae42b94d0cbcc43277d46dfa3fdf5",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/VTU_PGCET_COURSE_WISE_ELIGIBILITY_LISTenglish.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/VTU_PGCET_COURSE_WISE_ELIGIBILITY_LISTenglish.pdf"
+      ],
+      "title": "PGCET - 2026 VTU ಕೋರ್ಸ್‌ಗಳ ಅರ್ಹತಾ ಪಟ್ಟಿ. 31/03/2026",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/VTU_PGCET_COURSE_WISE_ELIGIBILITY_LISTenglish.pdf",
+      "visible_text": "PGCET - 2026 VTU ಕೋರ್ಸ್‌ಗಳ ಅರ್ಹತಾ ಪಟ್ಟಿ. 31/03/2026"
+    },
+    {
+      "date": "31/03/2026",
+      "hash": "0e6cf746c4c94855afb96b750a6071db07f073d011a72f0b7190baf370915861",
+      "id": "f440542c03a5cdf71d8aeb82dd02c777cb5641bc33d0b0e6e837b85932ff0112",
+      "links": [],
+      "parent_title": "PGCET - 2026 VTU ಕೋರ್ಸ್‌ಗಳ ಅರ್ಹತಾ ಪಟ್ಟಿ. 31/03/2026",
+      "pdf_urls": [],
+      "title": "PGCET - 2026 VTU ಕೋರ್ಸ್‌ಗಳ ಅರ್ಹತಾ ಪಟ್ಟಿ. 31/03/2026",
+      "url": null,
+      "visible_text": "PGCET - 2026 VTU ಕೋರ್ಸ್‌ಗಳ ಅರ್ಹತಾ ಪಟ್ಟಿ. 31/03/2026"
+    },
+    {
+      "date": "26/03/2026",
+      "hash": "702eb3606483324d91898f00435456eaa75fa90b756f9d0622315f39377c90b7",
+      "id": "3e568c82d08ecf88c8815ffb3b9828db2af11b06d9c9d93404eb7567f9306823",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_Information_Bulletin26032026kannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_Information_Bulletin26032026kannada.pdf"
+      ],
+      "title": "PGCET-2026 ಮಾಹಿತಿ ಬುಲೆಟಿನ್. 26/03/2026",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/PGCET_2026_Information_Bulletin26032026kannada.pdf",
+      "visible_text": "PGCET-2026 ಮಾಹಿತಿ ಬುಲೆಟಿನ್. 26/03/2026"
+    },
+    {
+      "date": "26/03/2026",
+      "hash": "5350e3c5b21ce0bcdd5896f23fac8ec1a19a3b2098b36d317fc5659a435662e6",
+      "id": "db0cb52ff60d7a3a8422475f6e774bdde96f888638aed63db6b4e3d2c94a0326",
+      "links": [],
+      "parent_title": "PGCET-2026 ಮಾಹಿತಿ ಬುಲೆಟಿನ್. 26/03/2026",
+      "pdf_urls": [],
+      "title": "PGCET-2026 ಮಾಹಿತಿ ಬುಲೆಟಿನ್. 26/03/2026",
+      "url": null,
+      "visible_text": "PGCET-2026 ಮಾಹಿತಿ ಬುಲೆಟಿನ್. 26/03/2026"
+    },
+    {
+      "date": "24/03/2026",
+      "hash": "a669cf461d3535cdb8823912461059e56ca4208ae0dd5d8a022b7fb4897733e4",
+      "id": "ed65718172d70453789bca792287ce65019c0bebfdf5ac583acee7ce11c540af",
+      "links": [
+        "https://cetonline.karnataka.gov.in/PGCET_2026"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [],
+      "title": "PGCET-2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಲಿಂಕ್. 24/03/2026",
+      "url": "https://cetonline.karnataka.gov.in/PGCET_2026",
+      "visible_text": "PGCET-2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಲಿಂಕ್. 24/03/2026"
+    },
+    {
+      "date": "24/03/2026",
+      "hash": "df5577aee3686bddbda83b540dbd2777908309a21ff01b930374b7b1e1d544b3",
+      "id": "636d75d0f8141edf7714bc0c5bc7d8b362ffc6c341d68ee1166d728d3afd71ed",
+      "links": [],
+      "parent_title": "PGCET-2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಲಿಂಕ್. 24/03/2026",
+      "pdf_urls": [],
+      "title": "PGCET-2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಲಿಂಕ್. 24/03/2026",
+      "url": null,
+      "visible_text": "PGCET-2026 ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ಲಿಂಕ್. 24/03/2026"
+    },
+    {
+      "date": "20-03-2026",
+      "hash": "5dda08c441b7242d10ff4577147082c3d4fcd464e3a8c05a71be43714de952d8",
+      "id": "cb4252051896b45fb13d921307ed07954464282bfdac7ade6c9bc4ea660ffa47",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXAM_TBL_KAN_20032kannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXAM_TBL_KAN_20032kannada.pdf"
+      ],
+      "title": "PGCET-2026 - 1ನೇ ವರ್ಷ / 1ನೇ ಸೆಮಿಸ್ಟರ್ MBA, MCA, M.E., M. Tech., M. Arch ಕೋರ್ಸ್‌ಗಳಿಗೆ ಪ್ರವೇಶ. (20-03-2026)",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_EXAM_TBL_KAN_20032kannada.pdf",
+      "visible_text": "PGCET-2026 - 1ನೇ ವರ್ಷ / 1ನೇ ಸೆಮಿಸ್ಟರ್ MBA, MCA, M.E., M. Tech., M. Arch ಕೋರ್ಸ್‌ಗಳಿಗೆ ಪ್ರವೇಶ. (20-03-2026)"
+    },
+    {
+      "date": "20-03-2026",
+      "hash": "80294a3000751f2f61cf2f42f5c7e2e9bb30ee52efb602cdfbcad1012dffacf2",
+      "id": "56f77e1067f270cce6a5269de15b4fde485f0d63bb635f80f10bf06bd05928a8",
+      "links": [],
+      "parent_title": "PGCET-2026 - 1ನೇ ವರ್ಷ / 1ನೇ ಸೆಮಿಸ್ಟರ್ MBA, MCA, M.E., M. Tech., M. Arch ಕೋರ್ಸ್‌ಗಳಿಗೆ ಪ್ರವೇಶ. (20-03-2026)",
+      "pdf_urls": [],
+      "title": "PGCET-2026 - 1ನೇ ವರ್ಷ / 1ನೇ ಸೆಮಿಸ್ಟರ್ MBA, MCA, M.E., M. Tech., M. Arch ಕೋರ್ಸ್‌ಗಳಿಗೆ ಪ್ರವೇಶ. (20-03-2026)",
+      "url": null,
+      "visible_text": "PGCET-2026 - 1ನೇ ವರ್ಷ / 1ನೇ ಸೆಮಿಸ್ಟರ್ MBA, MCA, M.E., M. Tech., M. Arch ಕೋರ್ಸ್‌ಗಳಿಗೆ ಪ್ರವೇಶ. (20-03-2026)"
+    },
+    {
+      "date": null,
+      "hash": "ece7bbad4b1e7f1de8330183de847474392b6ce85c1e0fae8cf25a0757d3fc50",
+      "id": "ed5dd2762f481f208c574b73ee0f89a73815d745602ebb528a03535afafd324f",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keaenquiry/forms/enquiry.aspx"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [],
+      "title": "PCET-2026 ಅಭ್ಯರ್ಥಿಗಳ ಕುಂದುಕೊರತೆ ಪೋರ್ಟಲ್ ಲಿಂಕ್",
+      "url": "https://cetonline.karnataka.gov.in/keaenquiry/forms/enquiry.aspx",
+      "visible_text": "PCET-2026 ಅಭ್ಯರ್ಥಿಗಳ ಕುಂದುಕೊರತೆ ಪೋರ್ಟಲ್ ಲಿಂಕ್"
+    },
+    {
+      "date": null,
+      "hash": "38c4c6771e3e42daf2251b2bd64ecc24896cd7e52c68f7fed886c47c7d4ed051",
+      "id": "030b6edf14da9ba47456254f7ad5cce11f519bd1117a573edc0e9ea255fc11b1",
+      "links": [],
+      "parent_title": "PCET-2026 ಅಭ್ಯರ್ಥಿಗಳ ಕುಂದುಕೊರತೆ ಪೋರ್ಟಲ್ ಲಿಂಕ್",
+      "pdf_urls": [],
+      "title": "PCET-2026 ಅಭ್ಯರ್ಥಿಗಳ ಕುಂದುಕೊರತೆ ಪೋರ್ಟಲ್ ಲಿಂಕ್",
+      "url": null,
+      "visible_text": "PCET-2026 ಅಭ್ಯರ್ಥಿಗಳ ಕುಂದುಕೊರತೆ ಪೋರ್ಟಲ್ ಲಿಂಕ್"
+    },
+    {
+      "date": null,
+      "hash": "f3c91ca2ab57cc7c409bcaf9b470bfc4ab6f9aea40388261ce86089c7b875047",
+      "id": "d513dfb60ade5dece18957be1ca5ac24537a6c7a1333e75bec6e69834ea79425",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/12_MCAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/11_MBAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/2_Computer_streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/1_Civil%20Engineeringkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/9_Electricl_Streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/10_Mechanical_Streamkannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/12_MCAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/11_MBAkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/2_Computer_streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/1_Civil%20Engineeringkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/9_Electricl_Streamkannada.pdf",
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/10_Mechanical_Streamkannada.pdf"
+      ],
+      "title": "PGCET-2026 ಪಠ್ಯಕ್ರಮ.",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2025/12_MCAkannada.pdf",
+      "visible_text": "PGCET-2026 ಪಠ್ಯಕ್ರಮ. MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science"
+    },
+    {
+      "date": null,
+      "hash": "b7986f3993f4edf0e2caf834d92a2eee86310ac0d20fc238be9b82d1ac9c882f",
+      "id": "127a5a87478cabb7380d5055c94a6f3d06774ba3b425405f5f8868b302775703",
+      "links": [],
+      "parent_title": "PGCET-2026 ಪಠ್ಯಕ್ರಮ.",
+      "pdf_urls": [],
+      "title": "PGCET-2026 ಪಠ್ಯಕ್ರಮ.",
+      "url": null,
+      "visible_text": "PGCET-2026 ಪಠ್ಯಕ್ರಮ."
+    },
+    {
+      "date": null,
+      "hash": "1e501767bdcd64aa640012c0a38d1862ea2d2c01e637d5cd81260a21900dc4a7",
+      "id": "646faa4afe103480ad53639da42651db7031f32eb720427f3fb5a31a751dd691",
+      "links": [],
+      "parent_title": "MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science",
+      "pdf_urls": [],
+      "title": "MCA",
+      "url": null,
+      "visible_text": "MCA"
+    },
+    {
+      "date": null,
+      "hash": "3e3a5e0f435850a1ddc6653866a38790eb80eb8e067f8ae83aed9082ad51d21e",
+      "id": "728a9b8762f5dd28bd31bfb604dc09b90eb1662e135035cdffabe962ddc8e840",
+      "links": [],
+      "parent_title": "MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science",
+      "pdf_urls": [],
+      "title": "MBA",
+      "url": null,
+      "visible_text": "MBA"
+    },
+    {
+      "date": null,
+      "hash": "d6a179d07d4617055928b392a81b504e10ec59689ca15b6d85fd0d8e16b6600c",
+      "id": "151bd187bb9eb1f6f0e6080b552e6b981baef66d665d4fb38ae2a4ff09908e64",
+      "links": [],
+      "parent_title": "MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science",
+      "pdf_urls": [],
+      "title": "Computer Science Engineering",
+      "url": null,
+      "visible_text": "Computer Science Engineering"
+    },
+    {
+      "date": null,
+      "hash": "533b82835fb4995e296bf823c770e5a84fb8160d2db3da9c1861dbc35328a019",
+      "id": "8ea3e9100a07697cc0e84cc00c9101ea3449e50c2c7cd5caa2b49dbee6ec64f6",
+      "links": [],
+      "parent_title": "MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science",
+      "pdf_urls": [],
+      "title": "ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್",
+      "url": null,
+      "visible_text": "ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್"
+    },
+    {
+      "date": null,
+      "hash": "dfae218d029887c2577bb97ee04fd9747975e655e8cc64696eb02582dca3fc49",
+      "id": "026cf9d391866cece592c9f66ab75f273d349fdc2e343353a969957cf346da2e",
+      "links": [],
+      "parent_title": "MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science",
+      "pdf_urls": [],
+      "title": "Electrical Science",
+      "url": null,
+      "visible_text": "Electrical Science"
+    },
+    {
+      "date": null,
+      "hash": "9fddfe5c1e8768d8b78d9766723907fe41af61a934461299c5b187890f93afd8",
+      "id": "89f0345165cd4aedb0e75779439d904c6b37353394721c86a913215caecac25a",
+      "links": [],
+      "parent_title": "MCA MBA Computer Science Engineering ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್ Electrical Science Mechanical Science",
+      "pdf_urls": [],
+      "title": "Mechanical Science",
+      "url": null,
+      "visible_text": "Mechanical Science"
+    },
+    {
+      "date": null,
+      "hash": "2d4df19f49f4d13503b514848becfba4b87dabbe9d46a644c5cc35ecc657b0c3",
+      "id": "a0eab310b3b4792ec200d538558c11cb73fda2b8e4f90dd9636dfb4df68769da",
+      "links": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SYLB_NOTE_16032026kannada.pdf"
+      ],
+      "parent_title": "ಪ್ರವೇಶ ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ಸರ್ಕಾರಿ ಪಿಎಚ್ ಸೂಚನೆಗಳು",
+      "pdf_urls": [
+        "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SYLB_NOTE_16032026kannada.pdf"
+      ],
+      "title": "PGCET-2026 ಪಠ್ಯಕ್ರಮ ಟಿಪ್ಪಣಿ.",
+      "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgcet2026/pgcet_SYLB_NOTE_16032026kannada.pdf",
+      "visible_text": "PGCET-2026 ಪಠ್ಯಕ್ರಮ ಟಿಪ್ಪಣಿ."
+    },
+    {
+      "date": null,
+      "hash": "adfd2a46cc6089e402675d64fa5136e2a3c761642014c3f6041ab056e466d1b2",
+      "id": "7bf7a500a984419e5ce4fb1f198aeae4d47fa64b23d316a722c25bdcc9f95a5c",
+      "links": [],
+      "parent_title": "PGCET-2026 ಪಠ್ಯಕ್ರಮ ಟಿಪ್ಪಣಿ.",
+      "pdf_urls": [],
+      "title": "PGCET-2026 ಪಠ್ಯಕ್ರಮ ಟಿಪ್ಪಣಿ.",
+      "url": null,
+      "visible_text": "PGCET-2026 ಪಠ್ಯಕ್ರಮ ಟಿಪ್ಪಣಿ."
+    }
+  ],
+  "last_checked": "2026-06-27T10:42:07+00:00",
+  "source_url": "https://cetonline.karnataka.gov.in/kea/pgcet2026",
+  "startup_notified": false,
+  "version": 1
+}
