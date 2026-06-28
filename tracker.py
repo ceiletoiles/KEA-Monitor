@@ -722,46 +722,6 @@ def compare_announcements(
     return new_items, modified_items, removed_items
 
 
-def run_git_command(args: list[str], cwd: Path) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(
-        ["git", *args],
-        cwd=cwd,
-        check=True,
-        text=True,
-        capture_output=True,
-    )
-
-
-def commit_and_push_if_needed(repo_root: Path, state_file: Path) -> None:
-    try:
-        status = run_git_command(["status", "--porcelain", "--", state_file.name], repo_root)
-        if not status.stdout.strip():
-            logger.info("No state changes to commit")
-            return
-
-        try:
-            run_git_command(["config", "user.name", "kea-monitor-bot"], repo_root)
-            run_git_command(["config", "user.email", "kea-monitor-bot@users.noreply.github.com"], repo_root)
-        except subprocess.CalledProcessError:
-            logger.warning("Unable to configure git identity, continuing with existing config")
-
-        run_git_command(["add", state_file.name], repo_root)
-        run_git_command(["commit", "-m", "chore: update KEA PGCET monitor state"], repo_root)
-
-        branch = os.environ.get("GITHUB_REF_NAME")
-        if not branch:
-            branch_result = run_git_command(["branch", "--show-current"], repo_root)
-            branch = branch_result.stdout.strip() or "main"
-
-        try:
-            run_git_command(["push", "origin", f"HEAD:{branch}"], repo_root)
-            logger.info("Committed and pushed state updates to %s", branch)
-        except subprocess.CalledProcessError as exc:
-            logger.exception("Commit succeeded but push failed: %s", exc)
-    except subprocess.CalledProcessError as exc:
-        logger.exception("Git operation failed: %s", exc)
-
-
 def bootstrap_or_update_state(
     state: dict[str, Any],
     current_announcements: list[Announcement],
@@ -811,7 +771,7 @@ def main() -> int:
     if diagnostics_enabled:
         log_network_diagnostics(session, TARGET_URL)
 
-    html = fetch_page(session, TARGET_URL, diagnostics_enabled=False)
+    html = fetch_page(session, TARGET_URL, diagnostics_enabled=diagnostics_enabled)
     if not html:
         logger.warning("Skipping update because the target page could not be fetched")
         return 0
