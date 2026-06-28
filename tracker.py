@@ -789,7 +789,6 @@ def main() -> int:
 
     updated_state = bootstrap_or_update_state(state, current_announcements, session)
     save_state(STATE_FILE, updated_state)
-    commit_and_push_if_needed(repo_root, STATE_FILE)
 
     logger.info("Monitor run completed successfully")
     return 0
