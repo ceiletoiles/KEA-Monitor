@@ -44,6 +44,35 @@ DATE_PATTERNS = (
 )
 
 
+def load_dotenv_file(path: Path | None = None) -> None:
+    """Load simple KEY=VALUE pairs from a local .env file if present."""
+    env_path = path or Path(__file__).resolve().with_name(".env")
+    if not env_path.exists():
+        return
+
+    try:
+        for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if line.startswith("export "):
+                line = line[len("export ") :].lstrip()
+            if "=" not in line:
+                continue
+
+            key, value = line.split("=", 1)
+            key = key.strip()
+            value = value.strip()
+            if not key or key in os.environ:
+                continue
+
+            if (value.startswith('"') and value.endswith('"')) or (value.startswith("'") and value.endswith("'")):
+                value = value[1:-1]
+            os.environ[key] = value
+    except OSError as exc:
+        logger.warning("Could not read .env file at %s: %s", env_path, exc)
+
+
 @dataclass(slots=True)
 class Announcement:
     id: str
@@ -58,8 +87,11 @@ class Announcement:
 
 
 def setup_logging() -> None:
+    level_name = (os.environ.get("LOG_LEVEL") or "").strip().upper()
+    if not level_name:
+        level_name = "DEBUG" if is_truthy(load_env("VERBOSE_LOGS")) else "INFO"
     logging.basicConfig(
-        level=os.environ.get("LOG_LEVEL", "INFO").upper(),
+        level=level_name,
         format="%(asctime)s %(levelname)s %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
     )
@@ -156,17 +188,17 @@ def log_network_diagnostics(session: requests.Session, url: str) -> None:
         return
 
     port = parsed.port or (443 if parsed.scheme == "https" else 80)
-    logger.info("Network diagnostics enabled for %s", url)
-    logger.info("Configured timeouts: connect=%ss read=%ss diagnostics_probe=%ss", CONNECT_TIMEOUT, READ_TIMEOUT, DIAGNOSTICS_TIMEOUT)
-    logger.info("Transport note: requests uses HTTP/1.1; response logging will show the negotiated HTTP version")
-    logger.info("Request headers: %s", summarize_headers(session.headers))
+    logger.debug("Network diagnostics enabled for %s", url)
+    logger.debug("Configured timeouts: connect=%ss read=%ss diagnostics_probe=%ss", CONNECT_TIMEOUT, READ_TIMEOUT, DIAGNOSTICS_TIMEOUT)
+    logger.debug("Transport note: requests uses HTTP/1.1; response logging will show the negotiated HTTP version")
+    logger.debug("Request headers: %s", summarize_headers(session.headers))
 
     if session.proxies:
-        logger.info("Direct socket probes below bypass the configured proxy and are for reference only")
+        logger.debug("Direct socket probes below bypass the configured proxy and are for reference only")
         for scheme, proxy_url in session.proxies.items():
-            logger.info("Proxy for %s: %s", scheme, summarize_proxy(proxy_url))
+            logger.debug("Proxy for %s: %s", scheme, summarize_proxy(proxy_url))
     else:
-        logger.info("No outbound proxy configured")
+        logger.debug("No outbound proxy configured")
 
     try:
         resolved = socket.getaddrinfo(host, port, type=socket.SOCK_STREAM)
@@ -177,7 +209,7 @@ def log_network_diagnostics(session: requests.Session, url: str) -> None:
     seen_endpoints: set[tuple[int, tuple[Any, ...]]] = set()
     for family, _socktype, _proto, canonname, sockaddr in resolved:
         ip_address = sockaddr[0]
-        logger.info(
+        logger.debug(
             "DNS result: family=%s address=%s port=%s canonname=%s",
             family_label(family),
             ip_address,
@@ -192,7 +224,7 @@ def log_network_diagnostics(session: requests.Session, url: str) -> None:
         try:
             with socket.socket(family, socket.SOCK_STREAM) as sock:
                 sock.settimeout(DIAGNOSTICS_TIMEOUT)
-                logger.info(
+                logger.debug(
                     "TCP probe start: family=%s address=%s port=%s timeout=%ss",
                     family_label(family),
                     ip_address,
@@ -200,7 +232,7 @@ def log_network_diagnostics(session: requests.Session, url: str) -> None:
                     DIAGNOSTICS_TIMEOUT,
                 )
                 sock.connect(sockaddr)
-                logger.info(
+                logger.debug(
                     "TCP probe success: family=%s address=%s port=%s",
                     family_label(family),
                     ip_address,
@@ -210,7 +242,7 @@ def log_network_diagnostics(session: requests.Session, url: str) -> None:
                 if parsed.scheme.lower() == "https":
                     context = ssl.create_default_context()
                     with context.wrap_socket(sock, server_hostname=host) as tls_sock:
-                        logger.info(
+                        logger.debug(
                             "TLS handshake success: family=%s address=%s tls_version=%s cipher=%s alpn=%s",
                             family_label(family),
                             ip_address,
@@ -220,7 +252,7 @@ def log_network_diagnostics(session: requests.Session, url: str) -> None:
                         )
                         peer_cert = tls_sock.getpeercert() or {}
                         if peer_cert:
-                            logger.info("TLS peer certificate: %s", summarize_cert(peer_cert))
+                            logger.debug("TLS peer certificate: %s", summarize_cert(peer_cert))
         except OSError as exc:
             logger.warning(
                 "Probe failed: family=%s address=%s port=%s error=%s",
@@ -233,7 +265,7 @@ def log_network_diagnostics(session: requests.Session, url: str) -> None:
 
 def log_http_response_details(response: requests.Response) -> None:
     http_version = {10: "HTTP/1.0", 11: "HTTP/1.1"}.get(getattr(response.raw, "version", None), "unknown")
-    logger.info(
+    logger.debug(
         "HTTP response: status=%s reason=%s url=%s http_version=%s content_type=%s content_length=%s",
         response.status_code,
         response.reason,
@@ -244,14 +276,14 @@ def log_http_response_details(response: requests.Response) -> None:
     )
     if response.history:
         for index, hop in enumerate(response.history, start=1):
-            logger.info(
+            logger.debug(
                 "Redirect hop %d: status=%s from=%s to=%s",
                 index,
                 hop.status_code,
                 hop.url,
                 hop.headers.get("Location", "-"),
             )
-    logger.info("Final request headers: %s", summarize_headers(response.request.headers))
+    logger.debug("Final request headers: %s", summarize_headers(response.request.headers))
 
 
 def describe_request_exception(exc: requests.RequestException) -> str:
@@ -531,7 +563,7 @@ def inspect_structure(container: Tag) -> None:
         for child in direct_children
         if child.find(lambda tag: isinstance(tag, Tag) and tag.name in {"h1", "h2", "h3", "h4", "h5", "h6"})
     )
-    logger.info(
+    logger.debug(
         "Announcement container located: <%s class=%s>, direct_children=%d, direct_children_with_links=%d, direct_children_with_headings=%d",
         container.name,
         " ".join(container.get("class", [])),
@@ -546,7 +578,34 @@ def inspect_structure(container: Tag) -> None:
         text = normalize_whitespace(child.get_text(" ", strip=True))[:90]
         sample.append(f"{tag_name}:{text}")
     if sample:
-        logger.info("Container sample: %s", " | ".join(sample))
+        logger.debug("Container sample: %s", " | ".join(sample))
+
+
+def summarize_latest_announcements(items: list[Announcement], limit: int = 2) -> str:
+    preview: list[str] = []
+    seen: set[str] = set()
+    for item in items:
+        text = normalize_whitespace(item.visible_text or item.title)
+        if not text:
+            continue
+        if len(item.links) > 5:
+            continue
+
+        title_key = normalize_whitespace(item.title).lower()
+        url_key = (item.url or "").strip().lower()
+        date_key = (item.date or "").strip()
+        signature = "||".join((title_key, url_key, date_key))
+        if signature in seen:
+            continue
+        seen.add(signature)
+
+        if item.date and item.date not in text:
+            preview.append(f"{truncate(text, 220)} ({item.date})")
+        else:
+            preview.append(truncate(text, 220))
+        if len(preview) >= limit:
+            break
+    return " | ".join(preview)
 
 
 def load_state(path: Path) -> dict[str, Any]:
@@ -732,23 +791,19 @@ def bootstrap_or_update_state(
     new_items, modified_items, _removed_items = compare_announcements(previous_announcements, current_announcements)
 
     if not startup_notified:
-        logger.info("First successful run detected; sending startup notification")
+        logger.info("Sending first update to Telegram")
         if send_telegram_message(session, format_startup_message()):
             state["startup_notified"] = True
         else:
-            logger.warning("Startup notification could not be delivered")
+            logger.warning("First Telegram update could not be delivered")
 
     if startup_notified and (new_items or modified_items):
-        logger.info(
-            "Detected changes: new=%d modified=%d",
-            len(new_items),
-            len(modified_items),
-        )
+        logger.info("Found %d new notice(s) and %d updated notice(s)", len(new_items), len(modified_items))
         for announcement in new_items + modified_items:
             message = format_notification(announcement)
             send_telegram_message(session, message)
     elif startup_notified:
-        logger.info("No announcement changes detected")
+        logger.info("No new notices found")
 
     state["source_url"] = TARGET_URL
     state["last_checked"] = current_timestamp()
@@ -760,8 +815,9 @@ def bootstrap_or_update_state(
 
 
 def main() -> int:
+    load_dotenv_file()
     setup_logging()
-    logger.info("Starting KEA PGCET monitor")
+    logger.info("Checking KEA PGCET announcements")
 
     repo_root = Path(__file__).resolve().parent
     state = load_state(STATE_FILE)
@@ -773,24 +829,26 @@ def main() -> int:
 
     html = fetch_page(session, TARGET_URL, diagnostics_enabled=diagnostics_enabled)
     if not html:
-        logger.warning("Skipping update because the target page could not be fetched")
+        logger.warning("Could not check the KEA page, so no update was sent")
         return 0
 
     soup = BeautifulSoup(html, "html.parser")
     container = find_announcement_container(soup)
     if container is None:
-        logger.warning("Announcement container not found on the page")
+        logger.warning("Could not find the announcements section on the page")
         return 0
 
     inspect_structure(container)
 
     current_announcements = walk_announcement_blocks(container, TARGET_URL, record_self=False)
-    logger.info("Extracted %d announcement records", len(current_announcements))
+    logger.info("Read %d announcement(s) from the page", len(current_announcements))
+    if current_announcements:
+        logger.info("Latest notices: %s", summarize_latest_announcements(current_announcements, limit=2))
 
     updated_state = bootstrap_or_update_state(state, current_announcements, session)
     save_state(STATE_FILE, updated_state)
 
-    logger.info("Monitor run completed successfully")
+    logger.info("Check finished successfully")
     return 0
 
 

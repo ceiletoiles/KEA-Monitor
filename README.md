@@ -21,8 +21,10 @@ The script reads these values from environment variables:
 - `CHAT_ID` - Telegram chat ID
 - `REQUESTS_PROXY` - optional proxy URL for routing KEA traffic through an allowed egress point
 - `NETWORK_DIAGNOSTICS` - set to `1` to log DNS, TCP, TLS, redirect, and HTTP-layer details in GitHub Actions
+- `VERBOSE_LOGS` - set to `1` to show the detailed technical debug logs in local runs
 
 Do not hardcode either value in the repository.
+When running locally, `tracker.py` will also auto-load a `.env` file from the repository root if present.
 
 ## How it works
 
